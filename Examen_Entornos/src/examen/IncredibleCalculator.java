@@ -17,6 +17,11 @@ public class IncredibleCalculator {
 
         switch (opcion) {
             case 1: //Sumar. Debes leer dos numeros enteros de entrada e imprimir su suma
+            	
+            	int uno=1;
+            	int dos=2;
+            	int suma;
+            	suma= uno + dos;
                     break;
             case 2: // Restar. Debes leer dos números enteros de entrada e imprimir su resta
                     break;
@@ -62,6 +67,8 @@ public class IncredibleCalculator {
             System.exit(1);
             return -1;
         }
+        
+        
 
     }
 
