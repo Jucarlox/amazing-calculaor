@@ -4,6 +4,9 @@ import java.util.Scanner;
 public class IncredibleCalculator {
 
     public static void main(String[] args) {
+    	
+    	int uno=1;
+    	int dos=2;
 
         System.out.println("Selecciona la operación que prefieras realizar: ");
         System.out.println("1. Sumar");
@@ -18,12 +21,13 @@ public class IncredibleCalculator {
         switch (opcion) {
             case 1: //Sumar. Debes leer dos numeros enteros de entrada e imprimir su suma
             	
-            	int uno=1;
-            	int dos=2;
+            	
             	int suma;
             	suma= uno + dos;
                     break;
             case 2: // Restar. Debes leer dos números enteros de entrada e imprimir su resta
+            	int resta;
+            	resta= dos -uno;
                     break;
             case 3: // Multiplicar. Debes leer dos números enteros de entrada e imprimir su producto.
                     break;
