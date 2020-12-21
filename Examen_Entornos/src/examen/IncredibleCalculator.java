@@ -30,6 +30,9 @@ public class IncredibleCalculator {
             	resta= dos -uno;
                     break;
             case 3: // Multiplicar. Debes leer dos números enteros de entrada e imprimir su producto.
+            	
+            	int multiplicar;
+            	multiplicar= uno * dos;
                     break;
             case 4: // Multiplicar. Debes leer dos números enteros de entrada e imprimir su división entera.
                     break;
